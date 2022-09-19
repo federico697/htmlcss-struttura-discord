@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    flex-direction: row;
+    display: flex;
+    border: 1px solid black;
+
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.box-red{
+    background-color: red;
+    flex-basis: 25%;
+    
+}
+.box-green{
+    background-color: green;
+    flex-basis: 50%;
+   
+}
+.box-blue{
+    background-color: blue;
+    flex-basis: 25%;
+    
+}
+.container-gray{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    height: 300px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.box-coral{
+    background-color: lightcoral;
+}
+
+.sezione{
+    background-color: blueviolet;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.sezione2{
+    background-color: cyan;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-seione2{
+    flex-basis: 33%;
+    background-color: black;
+}
+.container2-seione2{
+    flex-basis: 33%;
+    background-color: rgb(171, 107, 107);
+}
+.container3-seione2{
+    flex-basis: 33%;
+    background-color: rgb(215, 205, 205);
+}
+
+.container-sezione{
+    background-color: pink;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-left{
+    background-color: green;
+    height: 400px;
+    flex-basis: 49%;
+}
+
+.box-right{
+    background-color: rgb(11, 29, 11);
+    height: 400px;
+    flex-basis: 49%;
+}
+
+footer{
+    background-color: lightseagreen;
+    height: 400px;
+}
+.container-footer{
+    background-color: pink;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-red1{
+    background-color: red;
+    flex-basis: 32%;
+}
+.box-red2{
+    background-color: rgb(232, 55, 55);
+    flex-basis: 17%;
+}
+.box-red3{
+    background-color: rgb(227, 156, 156);
+    flex-basis: 17%;
+}
+.box-red4{
+    background-color: rgb(87, 64, 64);
+    flex-basis: 17%;
+}
+.box-red5{
+    background-color: rgb(43, 17, 17);
+    flex-basis: 17%;
+}
+
+.container-footer2{
+    background-color: pink;
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+}
+.footer2-blue{
+    background-color: blue;
+    flex-basis: 50%;
+}
+.footer2-lightblue{
+    background-color: lightblue;
+    flex-basis: 50%;
+}
