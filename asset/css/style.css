@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+header{
+    padding-top: 20px;
+    color: white;
+}
+
 .flex{
     flex-direction: row;
     display: flex;
@@ -15,24 +20,43 @@
 .box{
     width: 100px;
     height: 100px;
-    
 }
 
 .box-red{
     background-color: red;
-    flex-basis: 25%;
-    
+    flex-basis: 33%;
+    text-align: center;
 }
+
 .box-green{
     background-color: green;
-    flex-basis: 50%;
+    flex-basis: 33%;
    
 }
+
+.list-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+li{
+    list-style: none;
+}
+
 .box-blue{
     background-color: blue;
-    flex-basis: 25%;
+    flex-basis: 33%;
+    text-align: center;
     
 }
+#accedi{
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+}
+
 .container-gray{
     display: flex;
     align-items: center;
@@ -45,6 +69,13 @@
 
 .box-coral{
     background-color: lightcoral;
+    width: 51%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h1{
+    padding-bottom: 25px;
 }
 
 .sezione{
